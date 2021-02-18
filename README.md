@@ -32,7 +32,7 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
      - 1.2.1 [Pandas Dependencies](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
 
 - ## [**Chapter 2: Create Data Frame in Pandas**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-- 
+
   - 2.1 [Create Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
     - 2.1.1 [Using Dictionary](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
     - 2.1.2 [Using Tuple](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
