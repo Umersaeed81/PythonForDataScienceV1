@@ -90,7 +90,14 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
   - 4.26 [keep_date_col]()
   - 4.27 [lineterminator]()
 
--  ## [**Chapter 5: Import Data Frame in Pandas From HTML**]()
+- ## [**Chapter 5: Import Data Frame in Pandas From HTML**]()
+
+  - 5.1 [Import csv File in Pandas From HTML]()
+  - 5.2 [Import HTML Table]()
+  - 5.3 [Import HTML Table using attrs]()
+  - 5.4 [Import HTML Table using match]()
+
+
 - ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**]()
 - ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**]()
 - ## [**Chapter 8: Import Table From pdf file**]()
