@@ -99,6 +99,13 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 
 
 - ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**]()
+
+  - 6.1 [Import MS Excel File]()
+    - 6.1.1 [sheet_name]()
+    - 6.1.2 [Get all sheet names]()
+    - 6.1.3 [Import multiple Excel Sheets]()
+    - 6.1.4 [Display all sheets]()
+
 - ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**]()
 - ## [**Chapter 8: Import Table From pdf file**]()
 - 
