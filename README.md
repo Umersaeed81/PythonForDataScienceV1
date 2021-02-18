@@ -46,6 +46,10 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 
 
 - ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**]()
+
+  - 3.1 [How to read most commonly used file formats in Data Science (using Python/Pandas)?]()
+  - 3.2 [Local clipboard]()
+
 - ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**]()
 - ## [**Chapter 5: Import Data Frame in Pandas From HTML**]()
 - ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**]()
