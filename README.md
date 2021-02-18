@@ -21,6 +21,16 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 # <h1 align="center"> Table of contents
 
 - ## [**Chapter 1: Introduction to Pandas**]()
+
+- [1.1 What is Data Science?]()
+ - [1.1.1 Data Frames]()
+ - [1.1.2 Characteristics of a Data Frame]()
+ - [1.1.3 Library Highlights]()
+ - [1.1.4 Pandas Documentation]()
+ - [1.1.5 Data Wrangling]()
+- [1.2 Pandas Version]()
+ - [1.2.1 Pandas Dependencies]()
+
 - ## [**Chapter 2: Create Data Frame in Pandas**]()
 - ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**]()
 - ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**]()
