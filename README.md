@@ -9,7 +9,7 @@ MS Data Science, [School of Business and Economics](sbe.umt.edu.pk)<br>
 **Email:**  umersaeed81@hotmail.com<br>
 **Address:** Dream Gardens,Defence Road, Lahore<br>
 <h1 align="center">Python for Data Science</h1>
-<h2 align="center">First Edition - Volume 1</h2>
+<h2 align="center">First Edition - Volume 2</h2>
  <img src="https://www.python.org/static/img/python-logo.png" align="center"/>
  
  **Acknowledgments**
