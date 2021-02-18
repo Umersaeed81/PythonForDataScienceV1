@@ -19,3 +19,13 @@ I am deeply thankful to my advisors [**Dr. Shahid Mahmood Awan**](https://uk.lin
 I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com/in/irfan-kareem-a89ba021/), [**Mr.Muneeb Ul Haque**](https://www.linkedin.com/in/muneeb-ul-haque-86551728/), [**Mr.Mansoor Waheed**](https://www.linkedin.com/in/mansoor-waheed-26925021/), [**Mr.Bilal Iqbal**](https://www.linkedin.com/in/bilal-iqbal-5354a324/) & [**Mr.AbdulRehman Azam**](https://www.linkedin.com/in/areh-azam/) for their friendship and help.
 
 # <h1 align="center"> Table of contents
+
+- ## [**Chapter 1: Introduction to Pandas**]()
+- ## [**Chapter 2: Create Data Frame in Pandas**]()
+- ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**]()
+- ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**]()
+- ## [**Chapter 5: Import Data Frame in Pandas From HTML**]()
+- ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**]()
+- ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**]()
+- ## [**Chapter 8: Import Table From pdf file**]()
+- 
