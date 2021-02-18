@@ -20,16 +20,16 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 
 # <h1 align="center"> Table of contents
 
-- ## [**Chapter 1: Introduction to Pandas**]()
+- ## [**Chapter 1: Introduction to Pandas**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
 
-  - 1.1 [What is Data Science?]()
-     - 1.1.1 [Data Frames]()
-     - 1.1.2 [Characteristics of a Data Frame]()
-     - 1.1.3 [Library Highlights]()
-     - 1.1.4 [Pandas Documentation]()
-     - 1.1.5 [Data Wrangling]()
-  - 1.2 [Pandas Version]()
-     - 1.2.1 [Pandas Dependencies]()
+  - 1.1 [What is Data Science?](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+     - 1.1.1 [Data Frames](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+     - 1.1.2 [Characteristics of a Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+     - 1.1.3 [Library Highlights](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+     - 1.1.4 [Pandas Documentation](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+     - 1.1.5 [Data Wrangling](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+  - 1.2 [Pandas Version](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
+     - 1.2.1 [Pandas Dependencies](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
 
 - ## [**Chapter 2: Create Data Frame in Pandas**]()
 - ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**]()
