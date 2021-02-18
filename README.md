@@ -51,7 +51,46 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
   - 3.2 [Local clipboard]()
 
 - ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**]()
-- ## [**Chapter 5: Import Data Frame in Pandas From HTML**]()
+
+  - 4.1 read_table
+  - 4.2 Define Header Row
+    - 4.2.1 Skip Row
+    - 4.2.2 Header Row
+    - 4.2.3 Header set to None
+    - 4.2.4 Columns names
+  - 4.3 rename columns
+    - 4.3.1 Convert Header Name in lower Case
+    - 4.3.2 Convert Header Name in upper Case
+    - 4.3.3 Convert Header Name in Swapcase
+  - 4.4 replace in column name
+  - 4.5 add_prefix in Header
+  - 4.6 add_suffix in Header
+  - 4.7 prefix
+  - 4.8 Import Limited Number of Rows
+  - 4.9 Import Limited Number of Columns
+  - 4.10 skipfooter
+  - 4.11 engine
+  - 4.12 Ignore Comments Lile
+  - 4.13 Sequency Of the Columns
+  - 4.14 mangle_dupe_cols
+  - 4.15 skipinitialspace
+  - 4.16 verbose
+  - 4.17 converters
+  - 4.18 keep_default_na
+  - 4.19 true_values , false_value
+  - 4.20 index_col
+  - 4.21 thousands
+  - 4.22 decimal
+  - 4.23 squeeze
+  - 4.24 dtypes
+    - 4.24.1 dtype of a single Variable
+    - 4.24.2 dtype of all the variables of the DataFrame
+    - 4.24.3 set dtype during read_csv
+  - 4.25 parse_dates
+  - 4.26 keep_date_col
+  - 4.27 lineterminator
+
+-  ## [**Chapter 5: Import Data Frame in Pandas From HTML**]()
 - ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**]()
 - ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**]()
 - ## [**Chapter 8: Import Table From pdf file**]()
