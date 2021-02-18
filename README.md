@@ -107,5 +107,9 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
     - 6.1.4 [Display all sheets]()
 
 - ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**]()
+
+  - 7.1 [Read Fixed-Width Text File]()
+
 - ## [**Chapter 8: Import Table From pdf file**]()
-- 
+  - 8.1 [Install Tabula]()
+  - 8.2 [Read PDF FILE]()
