@@ -98,13 +98,13 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
   - 5.4 [Import HTML Table using match](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter5.html#5.4-Import-HTML-Table-using-match)
 
 
-- ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**]()
+- ## [**Chapter 6: Import Data Frame in Pandas From MS Excel**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html)
 
-  - 6.1 [Import MS Excel File]()
-    - 6.1.1 [sheet_name]()
-    - 6.1.2 [Get all sheet names]()
-    - 6.1.3 [Import multiple Excel Sheets]()
-    - 6.1.4 [Display all sheets]()
+  - 6.1 [Import MS Excel File](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1-Import-MS-Excel-File)
+    - 6.1.1 [sheet_name](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.1-sheet_name)
+    - 6.1.2 [Get all sheet names](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.2-Get-all-sheet-names)
+    - 6.1.3 [Import multiple Excel Sheets](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.3-Import-multiple-Excel-Sheets)
+    - 6.1.4 [Display all sheets](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.4-Display-all-sheets)
 
 - ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**]()
 
