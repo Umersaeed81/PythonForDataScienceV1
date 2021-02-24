@@ -47,8 +47,8 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 
 - ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter3.html)
 
-  - 3.1 [How to read most commonly used file formats in Data Science (using Python/Pandas)?]()
-  - 3.2 [Local clipboard]()
+  - 3.1 [How to read most commonly used file formats in Data Science (using Python/Pandas)?](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter3.html#3.1-How-to-read-most-commonly-used-file-formats-in-Data-Science-(using-Python/Pandas)?)
+  - 3.2 [Local clipboard](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter3.html#3.2-Local-clipboard)
 
 - ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**]()
 
