@@ -110,8 +110,8 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 
   - 7.1 [Read Fixed-Width Text File](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter7.html#7.1-Read-Fixed-Width-Text-File)
 
-- ## [**Chapter 8: Import Table From pdf file**]()
-  - 8.1 [Install Tabula]()
-  - 8.2 [Read PDF FILE]()
+- ## [**Chapter 8: Import Table From pdf file**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter8.html)
+  - 8.1 [Install Tabula](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter8.html#8.1-Install-Tabula)
+  - 8.2 [Read PDF FILE](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter8.html#8.2-Read-PDF-FILE)
 
-
+- ## [**Chapter 9: Umer Saeed**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter9.html)
