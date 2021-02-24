@@ -105,6 +105,7 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
     - 6.1.2 [Get all sheet names](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.2-Get-all-sheet-names)
     - 6.1.3 [Import multiple Excel Sheets](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.3-Import-multiple-Excel-Sheets)
     - 6.1.4 [Display all sheets](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.4-Display-all-sheets)
+    - 6.1.5 [converters](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter6.html#6.1.5-converters)
 
 - ## [**Chapter 7: Import Data Frame in Pandas From Fixed-Width Text File**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter7.html)
 
