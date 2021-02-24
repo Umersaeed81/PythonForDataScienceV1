@@ -14277,7 +14277,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Chapter-6:-Import-Data-Frame-in-Pandas-From-MS-Excel" data-toc-modified-id="Chapter-6:-Import-Data-Frame-in-Pandas-From-MS-Excel-1"><strong>Chapter 6: Import Data Frame in Pandas From MS Excel</strong></a></span><ul class="toc-item"><li><span><a href="#6.1-Import-MS-Excel-File" data-toc-modified-id="6.1-Import-MS-Excel-File-1.1">6.1 Import MS Excel File</a></span><ul class="toc-item"><li><span><a href="#6.1.1-sheet_name" data-toc-modified-id="6.1.1-sheet_name-1.1.1">6.1.1 sheet_name</a></span></li><li><span><a href="#6.1.2-Get-all-sheet-names" data-toc-modified-id="6.1.2-Get-all-sheet-names-1.1.2">6.1.2 Get all sheet names</a></span></li><li><span><a href="#6.1.3-Import-multiple-Excel-Sheets" data-toc-modified-id="6.1.3-Import-multiple-Excel-Sheets-1.1.3">6.1.3 Import multiple Excel Sheets</a></span></li><li><span><a href="#6.1.4-Display-all-sheets" data-toc-modified-id="6.1.4-Display-all-sheets-1.1.4">6.1.4 Display all sheets</a></span></li></ul></li></ul></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Chapter-6:-Import-Data-Frame-in-Pandas-From-MS-Excel" data-toc-modified-id="Chapter-6:-Import-Data-Frame-in-Pandas-From-MS-Excel-1"><strong>Chapter 6: Import Data Frame in Pandas From MS Excel</strong></a></span><ul class="toc-item"><li><span><a href="#6.1-Import-MS-Excel-File" data-toc-modified-id="6.1-Import-MS-Excel-File-1.1">6.1 Import MS Excel File</a></span><ul class="toc-item"><li><span><a href="#6.1.1-sheet_name" data-toc-modified-id="6.1.1-sheet_name-1.1.1">6.1.1 sheet_name</a></span></li><li><span><a href="#6.1.2-Get-all-sheet-names" data-toc-modified-id="6.1.2-Get-all-sheet-names-1.1.2">6.1.2 Get all sheet names</a></span></li><li><span><a href="#6.1.3-Import-multiple-Excel-Sheets" data-toc-modified-id="6.1.3-Import-multiple-Excel-Sheets-1.1.3">6.1.3 Import multiple Excel Sheets</a></span></li><li><span><a href="#6.1.4-Display-all-sheets" data-toc-modified-id="6.1.4-Display-all-sheets-1.1.4">6.1.4 Display all sheets</a></span></li><li><span><a href="#6.1.5-converters" data-toc-modified-id="6.1.5-converters-1.1.5">6.1.5 converters</a></span></li></ul></li></ul></li></ul></div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -16815,6 +16815,181 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 </ul>
 
 </div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="6.1.5-converters">6.1.5 converters<a class="anchor-link" href="#6.1.5-converters">&#182;</a></h4>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">&#39;DF3.xlsx&#39;</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>GCell Group</th>
+      <th>Integrity</th>
+      <th>Global Traffic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-02-06</td>
+      <td>KASUR_CLUSTER_01_Rural</td>
+      <td>1</td>
+      <td>5534.7581</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021-02-07</td>
+      <td>KASUR_CLUSTER_01_Rural</td>
+      <td>1</td>
+      <td>5211.4492</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021-02-08</td>
+      <td>KASUR_CLUSTER_01_Rural</td>
+      <td>1</td>
+      <td>5401.7077</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">&#39;DF3.xlsx&#39;</span><span class="p">,</span><span class="n">converters</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;Integrity&#39;</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">value</span><span class="p">:</span> <span class="s1">&#39;</span><span class="si">{:,.0f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">value</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)})</span>
+<span class="n">df</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>GCell Group</th>
+      <th>Integrity</th>
+      <th>Global Traffic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-02-06</td>
+      <td>KASUR_CLUSTER_01_Rural</td>
+      <td>100%</td>
+      <td>5534.7581</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021-02-07</td>
+      <td>KASUR_CLUSTER_01_Rural</td>
+      <td>100%</td>
+      <td>5211.4492</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021-02-08</td>
+      <td>KASUR_CLUSTER_01_Rural</td>
+      <td>100%</td>
+      <td>5401.7077</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </body>
 
