@@ -50,7 +50,7 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
   - 3.1 [How to read most commonly used file formats in Data Science (using Python/Pandas)?](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter3.html#3.1-How-to-read-most-commonly-used-file-formats-in-Data-Science-(using-Python/Pandas)?)
   - 3.2 [Local clipboard](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter3.html#3.2-Local-clipboard)
 
-- ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**]()
+- ## [**Chapter 4: Import Data Frame in Pandas From CSV & Text Files**](https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter4.html)
 
   - 4.1 [read_table]()
   - 4.2 [Define Header Row]()
