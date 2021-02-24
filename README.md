@@ -45,7 +45,7 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
     - 2.1.9 [empty Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.9-empty-Data-Frame)
 
 
-- ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**]()
+- ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter3.html)
 
   - 3.1 [How to read most commonly used file formats in Data Science (using Python/Pandas)?]()
   - 3.2 [Local clipboard]()
