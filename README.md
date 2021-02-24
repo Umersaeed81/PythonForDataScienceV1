@@ -33,16 +33,16 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
 
 - ## [**Chapter 2: Create Data Frame in Pandas**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
 
-  - 2.1 [Create Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.1 [Using Dictionary](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.2 [Using Tuple](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.3 [Using ndarray](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.4 [Using List](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.5 [Dictionary of Series](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.6 [Using Random Number](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.7 [Using Random Uniform Number](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.8 [Using Random randint Number](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
-    - 2.1.9 [empty Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html)
+  - 2.1 [Create Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1-Create-Data-Frame)
+    - 2.1.1 [Using Dictionary](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.1-Using-Dictionary)
+    - 2.1.2 [Using Tuple](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.2-Using-Tuple)
+    - 2.1.3 [Using ndarray](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.3-Using-ndarray)
+    - 2.1.4 [Using List](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.4-Using-List)
+    - 2.1.5 [Dictionary of Series](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.5-Dictionary-of-Series)
+    - 2.1.6 [Using Random Number](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.6-Using-Random-Number)
+    - 2.1.7 [Using Random Uniform Number](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.7-Using-Random-Uniform-Number)
+    - 2.1.8 [Using Random randint Number](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.8-Using-Random-randint-Number)
+    - 2.1.9 [empty Data Frame](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter2.html#2.1.9-empty-Data-Frame)
 
 
 - ## [**Chapter 3: Import Data Frame in Pandas From Local Clipboard**]()
