@@ -14277,7 +14277,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Chapter-4:-Import-Data-Frame-in-Pandas-From-CSV-&amp;-Text-Files" data-toc-modified-id="Chapter-4:-Import-Data-Frame-in-Pandas-From-CSV-&amp;-Text-Files-1"><strong>Chapter 4: Import Data Frame in Pandas From CSV &amp; Text Files</strong></a></span></li><li><span><a href="#4-CSV-&amp;-text-files" data-toc-modified-id="4-CSV-&amp;-text-files-2">4 CSV &amp; text files</a></span><ul class="toc-item"><li><span><a href="#4.1-read_table" data-toc-modified-id="4.1-read_table-2.1">4.1 read_table</a></span></li><li><span><a href="#4.2-Define-Header-Row" data-toc-modified-id="4.2-Define-Header-Row-2.2">4.2 Define Header Row</a></span><ul class="toc-item"><li><span><a href="#4.2.1-Skip-Row" data-toc-modified-id="4.2.1-Skip-Row-2.2.1">4.2.1 Skip Row</a></span></li><li><span><a href="#4.2.2-Header-Row" data-toc-modified-id="4.2.2-Header-Row-2.2.2">4.2.2 Header Row</a></span></li><li><span><a href="#4.2.3-Header-set-to-None" data-toc-modified-id="4.2.3-Header-set-to-None-2.2.3">4.2.3 Header set to None</a></span></li><li><span><a href="#4.2.4-Columns-names" data-toc-modified-id="4.2.4-Columns-names-2.2.4">4.2.4 Columns names</a></span></li></ul></li><li><span><a href="#4.3-rename-columns" data-toc-modified-id="4.3-rename-columns-2.3">4.3 rename columns</a></span><ul class="toc-item"><li><span><a href="#4.3.1-Convert-Header-Name-in-lower-Case" data-toc-modified-id="4.3.1-Convert-Header-Name-in-lower-Case-2.3.1">4.3.1 Convert Header Name in lower Case</a></span></li><li><span><a href="#4.3.2-Convert-Header-Name-in-upper-Case" data-toc-modified-id="4.3.2-Convert-Header-Name-in-upper-Case-2.3.2">4.3.2 Convert Header Name in upper Case</a></span></li><li><span><a href="#4.3.3-Convert-Header-Name-in-Swapcase" data-toc-modified-id="4.3.3-Convert-Header-Name-in-Swapcase-2.3.3">4.3.3 Convert Header Name in Swapcase</a></span></li></ul></li><li><span><a href="#4.4-replace-in-column-name" data-toc-modified-id="4.4-replace-in-column-name-2.4">4.4 replace in column name</a></span></li><li><span><a href="#4.5-add_prefix-in-Header" data-toc-modified-id="4.5-add_prefix-in-Header-2.5">4.5 add_prefix in Header</a></span></li><li><span><a href="#4.6-add_suffix-in-Header" data-toc-modified-id="4.6-add_suffix-in-Header-2.6">4.6 add_suffix in Header</a></span></li><li><span><a href="#4.7-prefix" data-toc-modified-id="4.7-prefix-2.7">4.7 prefix</a></span></li><li><span><a href="#4.8-Import-Limited-Number-of-Rows" data-toc-modified-id="4.8-Import-Limited-Number-of-Rows-2.8">4.8 Import Limited Number of Rows</a></span></li><li><span><a href="#4.9-Import-Limited-Number-of-Columns" data-toc-modified-id="4.9-Import-Limited-Number-of-Columns-2.9">4.9 Import Limited Number of Columns</a></span></li><li><span><a href="#4.10-skipfooter" data-toc-modified-id="4.10-skipfooter-2.10">4.10 skipfooter</a></span></li><li><span><a href="#4.11-engine" data-toc-modified-id="4.11-engine-2.11">4.11 engine</a></span></li><li><span><a href="#4.12-Ignore-Comments-Lile" data-toc-modified-id="4.12-Ignore-Comments-Lile-2.12">4.12 Ignore Comments Lile</a></span></li><li><span><a href="#4.13-Sequency-Of-the-Columns" data-toc-modified-id="4.13-Sequency-Of-the-Columns-2.13">4.13 Sequency Of the Columns</a></span></li><li><span><a href="#4.14-mangle_dupe_cols" data-toc-modified-id="4.14-mangle_dupe_cols-2.14">4.14 mangle_dupe_cols</a></span></li><li><span><a href="#4.15-skipinitialspace" data-toc-modified-id="4.15-skipinitialspace-2.15">4.15 skipinitialspace</a></span></li><li><span><a href="#4.16-verbose" data-toc-modified-id="4.16-verbose-2.16">4.16 verbose</a></span></li><li><span><a href="#4.17-converters" data-toc-modified-id="4.17-converters-2.17">4.17 converters</a></span></li><li><span><a href="#4.18--keep_default_na" data-toc-modified-id="4.18--keep_default_na-2.18">4.18  keep_default_na</a></span></li><li><span><a href="#4.19-true_values-,-false_value" data-toc-modified-id="4.19-true_values-,-false_value-2.19">4.19 true_values , false_value</a></span></li><li><span><a href="#4.20-index_col" data-toc-modified-id="4.20-index_col-2.20">4.20 index_col</a></span></li><li><span><a href="#4.21-thousands" data-toc-modified-id="4.21-thousands-2.21">4.21 thousands</a></span></li><li><span><a href="#4.22-decimal" data-toc-modified-id="4.22-decimal-2.22">4.22 decimal</a></span></li><li><span><a href="#4.23-squeeze" data-toc-modified-id="4.23-squeeze-2.23">4.23 squeeze</a></span></li><li><span><a href="#4.24-dtypes" data-toc-modified-id="4.24-dtypes-2.24">4.24 dtypes</a></span><ul class="toc-item"><li><span><a href="#4.24.1-dtype-of-a-single-Variable" data-toc-modified-id="4.24.1-dtype-of-a-single-Variable-2.24.1">4.24.1 dtype of a single Variable</a></span></li><li><span><a href="#4.24.2-dtype-of-all-the-variables-of-the-DataFrame" data-toc-modified-id="4.24.2-dtype-of-all-the-variables-of-the-DataFrame-2.24.2">4.24.2 dtype of all the variables of the DataFrame</a></span></li><li><span><a href="#4.24.3-set-dtype-during-read_csv" data-toc-modified-id="4.24.3-set-dtype-during-read_csv-2.24.3">4.24.3 set dtype during read_csv</a></span></li></ul></li><li><span><a href="#4.25-parse_dates" data-toc-modified-id="4.25-parse_dates-2.25">4.25 parse_dates</a></span></li><li><span><a href="#4.26-keep_date_col" data-toc-modified-id="4.26-keep_date_col-2.26">4.26 keep_date_col</a></span></li><li><span><a href="#4.27-lineterminator" data-toc-modified-id="4.27-lineterminator-2.27">4.27 lineterminator</a></span></li></ul></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Chapter-4:-Import-Data-Frame-in-Pandas-From-CSV-&amp;-Text-Files" data-toc-modified-id="Chapter-4:-Import-Data-Frame-in-Pandas-From-CSV-&amp;-Text-Files-1"><strong>Chapter 4: Import Data Frame in Pandas From CSV &amp; Text Files</strong></a></span></li><li><span><a href="#4-CSV-&amp;-text-files" data-toc-modified-id="4-CSV-&amp;-text-files-2">4 CSV &amp; text files</a></span><ul class="toc-item"><li><span><a href="#4.1-read_table" data-toc-modified-id="4.1-read_table-2.1">4.1 read_table</a></span></li><li><span><a href="#4.2-Define-Header-Row" data-toc-modified-id="4.2-Define-Header-Row-2.2">4.2 Define Header Row</a></span><ul class="toc-item"><li><span><a href="#4.2.1-Skip-Row" data-toc-modified-id="4.2.1-Skip-Row-2.2.1">4.2.1 Skip Row</a></span></li><li><span><a href="#4.2.2-Header-Row" data-toc-modified-id="4.2.2-Header-Row-2.2.2">4.2.2 Header Row</a></span></li><li><span><a href="#4.2.3-Header-set-to-None" data-toc-modified-id="4.2.3-Header-set-to-None-2.2.3">4.2.3 Header set to None</a></span></li><li><span><a href="#4.2.4-Columns-names" data-toc-modified-id="4.2.4-Columns-names-2.2.4">4.2.4 Columns names</a></span></li></ul></li><li><span><a href="#4.3-rename-columns" data-toc-modified-id="4.3-rename-columns-2.3">4.3 rename columns</a></span><ul class="toc-item"><li><span><a href="#4.3.1-Convert-Header-Name-in-lower-Case" data-toc-modified-id="4.3.1-Convert-Header-Name-in-lower-Case-2.3.1">4.3.1 Convert Header Name in lower Case</a></span></li><li><span><a href="#4.3.2-Convert-Header-Name-in-upper-Case" data-toc-modified-id="4.3.2-Convert-Header-Name-in-upper-Case-2.3.2">4.3.2 Convert Header Name in upper Case</a></span></li><li><span><a href="#4.3.3-Convert-Header-Name-in-Swapcase" data-toc-modified-id="4.3.3-Convert-Header-Name-in-Swapcase-2.3.3">4.3.3 Convert Header Name in Swapcase</a></span></li></ul></li><li><span><a href="#4.4-replace-in-column-name" data-toc-modified-id="4.4-replace-in-column-name-2.4">4.4 replace in column name</a></span></li><li><span><a href="#4.5-add_prefix-in-Header" data-toc-modified-id="4.5-add_prefix-in-Header-2.5">4.5 add_prefix in Header</a></span></li><li><span><a href="#4.6-add_suffix-in-Header" data-toc-modified-id="4.6-add_suffix-in-Header-2.6">4.6 add_suffix in Header</a></span></li><li><span><a href="#4.7-prefix" data-toc-modified-id="4.7-prefix-2.7">4.7 prefix</a></span></li><li><span><a href="#4.8-Import-Limited-Number-of-Rows" data-toc-modified-id="4.8-Import-Limited-Number-of-Rows-2.8">4.8 Import Limited Number of Rows</a></span></li><li><span><a href="#4.9-Import-Limited-Number-of-Columns" data-toc-modified-id="4.9-Import-Limited-Number-of-Columns-2.9">4.9 Import Limited Number of Columns</a></span></li><li><span><a href="#4.10-skipfooter" data-toc-modified-id="4.10-skipfooter-2.10">4.10 skipfooter</a></span></li><li><span><a href="#4.11-engine" data-toc-modified-id="4.11-engine-2.11">4.11 engine</a></span></li><li><span><a href="#4.12-Ignore-Comments-Lile" data-toc-modified-id="4.12-Ignore-Comments-Lile-2.12">4.12 Ignore Comments Lile</a></span></li><li><span><a href="#4.13-Sequency-Of-the-Columns" data-toc-modified-id="4.13-Sequency-Of-the-Columns-2.13">4.13 Sequency Of the Columns</a></span></li><li><span><a href="#4.14-mangle_dupe_cols" data-toc-modified-id="4.14-mangle_dupe_cols-2.14">4.14 mangle_dupe_cols</a></span></li><li><span><a href="#4.15-skipinitialspace" data-toc-modified-id="4.15-skipinitialspace-2.15">4.15 skipinitialspace</a></span></li><li><span><a href="#4.16-verbose" data-toc-modified-id="4.16-verbose-2.16">4.16 verbose</a></span></li><li><span><a href="#4.17-converters" data-toc-modified-id="4.17-converters-2.17">4.17 converters</a></span></li><li><span><a href="#4.18--keep_default_na" data-toc-modified-id="4.18--keep_default_na-2.18">4.18  keep_default_na</a></span></li><li><span><a href="#4.19-true_values-,-false_value" data-toc-modified-id="4.19-true_values-,-false_value-2.19">4.19 true_values , false_value</a></span></li><li><span><a href="#4.20-index_col" data-toc-modified-id="4.20-index_col-2.20">4.20 index_col</a></span></li><li><span><a href="#4.21-thousands" data-toc-modified-id="4.21-thousands-2.21">4.21 thousands</a></span></li><li><span><a href="#4.22-decimal" data-toc-modified-id="4.22-decimal-2.22">4.22 decimal</a></span></li><li><span><a href="#4.23-squeeze" data-toc-modified-id="4.23-squeeze-2.23">4.23 squeeze</a></span></li><li><span><a href="#4.24-dtypes" data-toc-modified-id="4.24-dtypes-2.24">4.24 dtypes</a></span><ul class="toc-item"><li><span><a href="#4.24.1-dtype-of-a-single-Variable" data-toc-modified-id="4.24.1-dtype-of-a-single-Variable-2.24.1">4.24.1 dtype of a single Variable</a></span></li><li><span><a href="#4.24.2-dtype-of-all-the-variables-of-the-DataFrame" data-toc-modified-id="4.24.2-dtype-of-all-the-variables-of-the-DataFrame-2.24.2">4.24.2 dtype of all the variables of the DataFrame</a></span></li><li><span><a href="#4.24.3-set-dtype-during-read_csv" data-toc-modified-id="4.24.3-set-dtype-during-read_csv-2.24.3">4.24.3 set dtype during read_csv</a></span></li></ul></li><li><span><a href="#4.25-parse_dates" data-toc-modified-id="4.25-parse_dates-2.25">4.25 parse_dates</a></span></li><li><span><a href="#4.26-keep_date_col" data-toc-modified-id="4.26-keep_date_col-2.26">4.26 keep_date_col</a></span></li><li><span><a href="#4.27-na_values" data-toc-modified-id="4.27-na_values-2.27">4.27 na_values</a></span></li><li><span><a href="#4.28-lineterminator" data-toc-modified-id="4.28-lineterminator-2.28">4.28 lineterminator</a></span></li></ul></li></ul></div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -19391,7 +19391,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF12.csv&#39;</span><span class="p">)</span>
@@ -19411,7 +19411,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
 
 
 
@@ -19483,7 +19483,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF12.csv&#39;</span><span class="p">,</span><span class="n">skipinitialspace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
@@ -19503,7 +19503,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
 
 
 
@@ -19580,7 +19580,7 @@ MS Data Science, <a href="sbe.umt.edu.pk">School of Business and Economics</a><b
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF9.csv&#39;</span><span class="p">,</span><span class="n">comment</span><span class="o">=</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="n">verbose</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -19614,7 +19614,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
 
 
 
@@ -19684,7 +19684,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF13.csv&#39;</span><span class="p">,</span>\
@@ -19706,7 +19706,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
 
 
 
@@ -19828,7 +19828,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span> <span class="p">:(</span><span class="n">x</span><span class="o">.</span><span class="n">replace</span> <span class="p">(</span><span class="s2">&quot;;&quot;</span><span class="p">,</span><span class="s2">&quot;_&quot;</span><span class="p">))</span>
@@ -19851,7 +19851,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
 
 
 
@@ -19979,95 +19979,10 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF14.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>ID</th>
-      <th>Marks</th>
-      <th>age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Umer</td>
-      <td>1</td>
-      <td>100</td>
-      <td>39.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Ali</td>
-      <td>2</td>
-      <td>100</td>
-      <td>36.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Ahmed</td>
-      <td>3</td>
-      <td>100</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF14.csv&#39;</span><span class="p">,</span><span class="n">keep_default_na</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF14.csv&#39;</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
 
@@ -20152,7 +20067,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF14.csv&#39;</span><span class="p">,</span><span class="n">keep_default_na</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF14.csv&#39;</span><span class="p">,</span><span class="n">keep_default_na</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
 
@@ -20170,6 +20085,91 @@ Parser memory cleanup took: 0.00 ms
 
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>ID</th>
+      <th>Marks</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Umer</td>
+      <td>1</td>
+      <td>100</td>
+      <td>39.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ali</td>
+      <td>2</td>
+      <td>100</td>
+      <td>36.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ahmed</td>
+      <td>3</td>
+      <td>100</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF14.csv&#39;</span><span class="p">,</span><span class="n">keep_default_na</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
 
 
 
@@ -20239,7 +20239,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF15.csv&#39;</span><span class="p">,</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -20259,7 +20259,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
 
 
 
@@ -20394,7 +20394,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF15.csv&#39;</span><span class="p">,</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span><span class="n">true_values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;YES&#39;</span><span class="p">]</span> <span class="p">,</span> <span class="n">false_values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NO&#39;</span><span class="p">])</span>
@@ -20414,7 +20414,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
 
 
 
@@ -20552,7 +20552,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF15.csv&#39;</span><span class="p">,</span><span class="n">index_col</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;BSC Name&quot;</span><span class="p">],</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -20572,7 +20572,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
 
 
 
@@ -20703,7 +20703,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF15.csv&#39;</span><span class="p">,</span><span class="n">index_col</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;BSC Name&quot;</span><span class="p">,</span><span class="s2">&quot;Cell Name&quot;</span><span class="p">],</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -20723,7 +20723,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
 
 
 
@@ -20847,7 +20847,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF15.csv&#39;</span><span class="p">,</span><span class="n">index_col</span> <span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -20867,7 +20867,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
 
 
 
@@ -20998,7 +20998,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF15.csv&#39;</span><span class="p">,</span><span class="n">index_col</span> <span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
@@ -21018,7 +21018,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
 
 
 
@@ -21141,7 +21141,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF16.csv&#39;</span><span class="p">)</span>
@@ -21161,7 +21161,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
 
 
 
@@ -21223,7 +21223,7 @@ Parser memory cleanup took: 0.00 ms
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -21242,7 +21242,7 @@ Parser memory cleanup took: 0.00 ms
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
 
 
 
@@ -21262,7 +21262,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF16.csv&#39;</span><span class="p">,</span><span class="n">thousands</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
@@ -21282,7 +21282,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
 
 
 
@@ -21344,7 +21344,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -21363,7 +21363,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
 
 
 
@@ -21397,7 +21397,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF16.csv&#39;</span><span class="p">)</span>
@@ -21417,7 +21417,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
 
 
 
@@ -21479,7 +21479,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -21498,7 +21498,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
 
 
 
@@ -21518,7 +21518,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF16.csv&#39;</span><span class="p">,</span><span class="n">decimal</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
@@ -21538,7 +21538,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
 
 
 
@@ -21600,7 +21600,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -21619,7 +21619,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
 
 
 
@@ -21644,7 +21644,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF17.txt&#39;</span><span class="p">)</span>
@@ -21664,7 +21664,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
 
 
 
@@ -21741,7 +21741,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -21760,7 +21760,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
 
 
 
@@ -21778,7 +21778,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF17.txt&#39;</span><span class="p">,</span><span class="n">squeeze</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -21798,7 +21798,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
 
 
 
@@ -21825,7 +21825,7 @@ Name: BSC Name, dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -21844,7 +21844,7 @@ Name: BSC Name, dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
 
 
 
@@ -21867,7 +21867,7 @@ Name: BSC Name, dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF9.csv&#39;</span><span class="p">,</span><span class="n">comment</span><span class="o">=</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -21887,7 +21887,7 @@ Name: BSC Name, dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
 
 
 
@@ -21957,7 +21957,7 @@ Name: BSC Name, dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Global Traffic&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dtypes</span>
@@ -21976,7 +21976,7 @@ Name: BSC Name, dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[74]:</div>
 
 
 
@@ -21999,7 +21999,7 @@ Name: BSC Name, dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22018,7 +22018,7 @@ Name: BSC Name, dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[74]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
 
 
 
@@ -22045,7 +22045,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF9.csv&#39;</span><span class="p">,</span><span class="n">comment</span><span class="o">=</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">dtype</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Global Traffic&quot;</span> <span class="p">:</span> <span class="s2">&quot;str&quot;</span><span class="p">})</span>
@@ -22065,7 +22065,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[76]:</div>
 
 
 
@@ -22130,7 +22130,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22149,7 +22149,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[76]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
 
 
 
@@ -22176,7 +22176,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF9.csv&#39;</span><span class="p">,</span><span class="n">comment</span><span class="o">=</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -22196,7 +22196,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
 
 
 
@@ -22261,7 +22261,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22280,7 +22280,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
 
 
 
@@ -22302,7 +22302,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF9.csv&#39;</span><span class="p">,</span><span class="n">comment</span><span class="o">=</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">])</span>
@@ -22322,7 +22322,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
 
 
 
@@ -22387,7 +22387,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22406,7 +22406,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[81]:</div>
 
 
 
@@ -22433,7 +22433,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF18.csv&#39;</span><span class="p">)</span>
@@ -22453,7 +22453,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[81]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
 
 
 
@@ -22560,7 +22560,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22579,7 +22579,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
 
 
 
@@ -22601,7 +22601,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[84]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF18.csv&#39;</span><span class="p">,</span><span class="n">parse_dates</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Date&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Day&quot;</span><span class="p">,</span> <span class="s2">&quot;Month&quot;</span><span class="p">,</span> <span class="s2">&quot;Year&quot;</span><span class="p">]})</span>
@@ -22621,7 +22621,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[84]:</div>
 
 
 
@@ -22708,7 +22708,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[84]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[85]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22727,7 +22727,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[84]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[85]:</div>
 
 
 
@@ -22747,7 +22747,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[85]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DF18.csv&#39;</span><span class="p">,</span><span class="n">parse_dates</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Date&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Day&quot;</span><span class="p">,</span> <span class="s2">&quot;Month&quot;</span><span class="p">,</span> <span class="s2">&quot;Year&quot;</span><span class="p">]},</span><span class="n">keep_date_col</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -22767,7 +22767,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[85]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[86]:</div>
 
 
 
@@ -22884,7 +22884,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
@@ -22903,7 +22903,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[86]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[87]:</div>
 
 
 
@@ -22926,7 +22926,104 @@ dtype: object</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="4.27-lineterminator">4.27 lineterminator<a class="anchor-link" href="#4.27-lineterminator">&#182;</a></h3>
+<h3 id="4.27-na_values">4.27 na_values<a class="anchor-link" href="#4.27-na_values">&#182;</a></h3>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;IOI.csv&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span><span class="n">skipfooter</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">engine</span><span class="o">=</span><span class="s1">&#39;python&#39;</span><span class="p">,</span><span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">])</span>
+<span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Date                                     datetime64[ns]
+GBSC                                             object
+Cell CI                                           int64
+Cell Name                                        object
+CellIndex                                         int64
+Site Name                                        object
+Integrity                                        object
+Interference Band Proportion (4~5)(%)            object
+dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;IOI.csv&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span><span class="n">skipfooter</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">engine</span><span class="o">=</span><span class="s1">&#39;python&#39;</span><span class="p">,</span><span class="n">na_values</span><span class="o">=</span><span class="s1">&#39;NIL&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[89]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Date                                      object
+GBSC                                      object
+Cell CI                                    int64
+Cell Name                                 object
+CellIndex                                  int64
+Site Name                                 object
+Integrity                                 object
+Interference Band Proportion (4~5)(%)    float64
+dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="4.28-lineterminator">4.28 lineterminator<a class="anchor-link" href="#4.28-lineterminator">&#182;</a></h3>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -22940,7 +23037,7 @@ dtype: object</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">io</span>
@@ -22962,7 +23059,7 @@ dtype: object</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[87]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
 
 
 
