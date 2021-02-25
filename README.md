@@ -142,3 +142,10 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
   - 10.5 [to_list](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.5-to_list)
   - 10.6 [tolist](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.6-tolist)
   - 10.7 [explode](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.7-explode)
+ 
+ - ## [**Chapter 11: Convert the DataFrame to array**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter11.html)
+  - 11.1 [to_dict](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter11.html#11.1-to_dict)
+    - 11.1.1 [series](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter11.html#11.1.1-series)
+    - 11.1.2 [split](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter11.html#11.1.2-split)
+    - 11.1.3 [index](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter11.html#11.1.3-index)
+    - 11.1.4 [OrderedDict](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter11.html#11.1.4-OrderedDict)
