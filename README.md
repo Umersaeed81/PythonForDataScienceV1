@@ -133,3 +133,12 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
     - 9.2.5 [startcol](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter9.html#9.2.5-startcol)
     - 9.2.6 [Export multiple worksheets in the same workbook](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter9.html#9.2.6-Export-multiple-worksheets-in-the-same-workbook)
 
+- ## [**Chapter 10: Convert the DataFrame to array**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html)
+  - 10.1 [to_records](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.1-to_records)
+    - 10.1.1 [Array with out Index](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.1.1-Array-with-out-Index)
+  - 10.2 [values](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.2-values)
+  - 10.3 [to_numpy](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.3-to_numpy)
+  - 10.4 [array](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.4-array)
+  - 10.5 [to_list](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.5-to_list)
+  - 10.6 [tolist](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.6-tolist)
+  - 10.7 [explode](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter10.html#10.7-explode)
