@@ -1,6 +1,6 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28Mw_N6RTuNvdbw3UShxAHfWHyZ2qMgkjSdnVRO4Qo-8TYqip4w" alt="Smiley face" align="center">
 
-<img src="https://miro.medium.com/max/700/1*E1haIGB9K4K89PsFZgm-pw.jpeg" alt="Smiley face" align="center" width="1000" height="350">
+<img src="https://miro.medium.com/max/700/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" alt="Smiley face" align="center" width="1000" height="350">
 
 #  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)            <img src="https://sbe.umt.edu.pk/style/images/sbe.png" align="right"/>              
 Sr. RF Planning & Optimization Engineer<br>
