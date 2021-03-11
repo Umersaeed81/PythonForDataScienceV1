@@ -1,6 +1,7 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28Mw_N6RTuNvdbw3UShxAHfWHyZ2qMgkjSdnVRO4Qo-8TYqip4w" alt="Smiley face" align="center">
 
-<img src="https://miro.medium.com/max/700/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" alt="Smiley face" align="center" width="1000" height="350">
+<img src="https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" align="center" alt="Girl in a jacket" width="1000" height="350">
+
 
 #  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)            <img src="https://sbe.umt.edu.pk/style/images/sbe.png" align="right"/>              
 Sr. RF Planning & Optimization Engineer<br>
@@ -17,7 +18,6 @@ MS Data Science, [School of Business and Economics](sbe.umt.edu.pk)<br>
 <h1 align="center"> Pandas Data Frame</h1>
 <h2 align="center">First Edition - Volume 2</h2>
 
-<img src="https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" align="center" alt="Girl in a jacket" width="1000" height="350">
 
  # Acknowledgments
 
