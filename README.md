@@ -185,3 +185,8 @@ I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com
   - 13.4 [memory_usage](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter13.html#13.5-memory_usage)
     - 13.4.1 [memory_usage without Index](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter13.html#13.4.1-memory_usage-without-Index)
     - 13.4.2 [nbytes](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter13.html#13.4.2-nbytes)
+
+
+### Sponsers
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Higher_Education_Commission_of_Pakistan_%28logo%29.jpg/250px-Higher_Education_Commission_of_Pakistan_%28logo%29.jpg" align="left" alt="Girl in a jacket" width="100" height="100"> <img src="https://diceanalytics.pk/wp-content/uploads/2018/03/dice-logo.png" align="center" alt="Girl in a jacket" width="100" height="100"> <img src="https://e.jang.com.pk/jmimage_new/ejanglogo.png" align="left" alt="Girl in a jacket" width="100" height="100"> <img src="https://www.umt.edu.pk/style/images/umt-logo.jpg" align="left" alt="Girl in a jacket" width="250" height="100"> <img src="https://www.pnytrainings.com/assets/uploads//logo/1529168423-school-logo.jpg" align="left" alt="Girl in a jacket" width="100" height="100"> <img src="https://turnotech.com/wp-content/uploads/2020/01/logo-turnotech-color.png" align="left" alt="Girl in a jacket" width="250" height="100">
+
