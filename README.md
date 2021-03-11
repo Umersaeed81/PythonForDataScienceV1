@@ -17,7 +17,7 @@ MS Data Science, [School of Business and Economics](sbe.umt.edu.pk)<br>
 <h1 align="center"> Pandas Data Frame</h1>
 <h2 align="center">First Edition - Volume 2</h2>
 
-<img src="https://i.morioh.com/d0d79cbc80.png" align="center" alt="Girl in a jacket" width="1000" height="350">
+<img src="https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" align="center" alt="Girl in a jacket" width="1000" height="350">
 
  # Acknowledgments
 
