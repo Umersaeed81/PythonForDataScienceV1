@@ -2,7 +2,7 @@
 
 
 
-<img src="https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" align="center" alt="Girl in a jacket" width="1000" height="350">
+<img src="https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" align="center" alt="Girl in a jacket" width="800" height="250">
 
 
 #  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)            <img src="https://sbe.umt.edu.pk/style/images/sbe.png" align="right"/>              
