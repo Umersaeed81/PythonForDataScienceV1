@@ -1,24 +1,9 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28Mw_N6RTuNvdbw3UShxAHfWHyZ2qMgkjSdnVRO4Qo-8TYqip4w" alt="Smiley face" align="center">
+<img src="https://github.com/Umersaeed81/PythonForDataScienceV0/blob/main/E1_V2.png" align="center" alt="Girl in a jacket" width="800" height="1000" align="center"/>
 
 
-
-<img src="https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" align="center" alt="Girl in a jacket" width="800" height="250">
-
-
-#  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)            <img src="https://sbe.umt.edu.pk/style/images/sbe.png" align="right"/>              
-Sr. RF Planning & Optimization Engineer<br>
-BSc Telecommunications Engineering, [School of Engineering](https://sen.umt.edu.pk/)<br>
-MS Data Science, [School of Business and Economics](sbe.umt.edu.pk)<br>
-**[University of Management & Technology, Lahore, Pakistan](www.umt.edu.pk)**<br> <img src="https://sst.umt.edu.pk/style/images/sst-logo.png" align="right"/> 
-**Mobile:**     +923018412180<br>
-**Email:**  umersaeed81@hotmail.com<br>
-**Address:** Dream Gardens,Defence Road, Lahore<br> 
+#  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)            
 
 
-
-<h1 align="center"> An Introduction to the Python Language For Data Science </h1>
-<h1 align="center"> Pandas Data Frame</h1>
-<h2 align="center">First Edition - Volume 2</h2>
 
 
  # Acknowledgments
