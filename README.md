@@ -2,7 +2,7 @@
 
 #  Preface
 
-These notes were devloped for the course ***Python for Data Science*** at the [Center for Enterprise and Technology Advancement (CETA)](https://ceta.umt.edu.pk/) in [University of Management & Technology](www.umt.edu.pk). The goal is to provide an overiew of fundamental concepts in Python from first principles. 
+These notes were devloped for the course ***Foundation of Data Science Using Programming Language*** at the [Center for Enterprise and Technology Advancement (CETA)](https://ceta.umt.edu.pk/) in [University of Management & Technology](www.umt.edu.pk). The goal is to provide an overiew of fundamental concepts in Python from first principles. 
 
 I am deeply thankful to  [**Dr. Shahid Mahmood Awan**](https://uk.linkedin.com/in/shahidmawan) and [**Dr. Bilal Wajid**](https://www.linkedin.com/in/dr-bilal-wajid-98949276/) for his inspiration and guidance throughout my studies at the [Department of Information System](https://sbe.umt.edu.pk/iss1/home.aspx), [School of Business and Economics](sbe.umt.edu.pk), [University of Management & Technology](www.umt.edu.pk). In the past 2 Years, his invaluable support and directions always helped me improve professional and academic skills. It has been an honor being his student. I am also very grateful to all my class fellows for their feedback and useful suggestions.
                                                                                                                
