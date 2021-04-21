@@ -2,17 +2,10 @@
 
 #  Preface
 
-These notes were devloped for the course ***Python for Data Science*** at the [Center for Enterprise and Technology Advancement (CETA)](https://ceta.umt.edu.pk/) in [University of Management & Technology](www.umt.edu.pk). The goal is to provide an overiew of fundamental concepts in Python from first principles. I would like to  tanks [**Dr. Bilal Wajid**](https://www.linkedin.com/in/dr-bilal-wajid-98949276/) and [**Dr. Shahid Mahmood Awan**](https://uk.linkedin.com/in/shahidmawan) for their useful suggestions. I am also very grateful to all my class fellows for their feedback.
-                                                                                                              -   [Umer Saeed](https://www.linkedin.com/in/engumersaeed/) 
+These notes were devloped for the course ***Python for Data Science*** at the [Center for Enterprise and Technology Advancement (CETA)](https://ceta.umt.edu.pk/) in [University of Management & Technology](www.umt.edu.pk). The goal is to provide an overiew of fundamental concepts in Python from first principles. 
 
-
- # Acknowledgments
-
-I am deeply thankful to my advisors [**Dr. Shahid Mahmood Awan**](https://uk.linkedin.com/in/shahidmawan) and [**Dr. Bilal Wajid**](https://www.linkedin.com/in/dr-bilal-wajid-98949276/) for his inspiration and guidance throughout my studies at the [Department of Information System](https://sbe.umt.edu.pk/iss1/home.aspx), [School of Business and Economics](sbe.umt.edu.pk), [University of Management & Technology](www.umt.edu.pk). In the past 2 Years, his invaluable support and directions always helped me improve professional and academic skills. It has been an honor being his student.
-
-I am very grateful to my friends [**Mr. Irfan Kareem**](https://www.linkedin.com/in/irfan-kareem-a89ba021/), [**Mr.Muneeb Ul Haque**](https://www.linkedin.com/in/muneeb-ul-haque-86551728/), [**Mr.Mansoor Waheed**](https://www.linkedin.com/in/mansoor-waheed-26925021/), [**Mr.Bilal Iqbal**](https://www.linkedin.com/in/bilal-iqbal-5354a324/) & [**Mr.AbdulRehman Azam**](https://www.linkedin.com/in/areh-azam/) for their friendship and help.
-
-
+I am deeply thankful to  [**Dr. Shahid Mahmood Awan**](https://uk.linkedin.com/in/shahidmawan) and [**Dr. Bilal Wajid**](https://www.linkedin.com/in/dr-bilal-wajid-98949276/) for his inspiration and guidance throughout my studies at the [Department of Information System](https://sbe.umt.edu.pk/iss1/home.aspx), [School of Business and Economics](sbe.umt.edu.pk), [University of Management & Technology](www.umt.edu.pk). In the past 2 Years, his invaluable support and directions always helped me improve professional and academic skills. It has been an honor being his student. I am also very grateful to all my class fellows for their feedback and useful suggestions.
+                                                                                                               
 # <h1 align="center"> Table of contents
 
 - ## [**Chapter 1: Introduction to Pandas**](https://htmlpreview.github.io/?https://github.com/Umersaeed81/PythonForDataScienceV1/blob/main/Chapter1.html)
